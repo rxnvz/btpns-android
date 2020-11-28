@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tugas-1</string>
+    <string name="title">Kendalikan uang dan kartu debitmu</string>
+    <string name="summary">Gak lagi khawatir boros atau kehilangan kartu! Atur dengan Card Center</string>
+    <string name="alreadyHaveAcc">SAYA SUDAH PUNYA AKUN</string>
+    <string name="regis">REGISTER</string>
+    <string name="ver">Version 2.28.1 (7447)</string>
+</resources>
