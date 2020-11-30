@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        android:title="Search"/>
+    <item
+        android:id="@+id/tool"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Tool"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/refresh"
+        android:icon="@android:drawable/ic_menu_more"
+        app:showAsAction="never"
+        android:title="Refresh">
+    </item>
+
+    <item
+        android:id="@+id/help"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="never"
+        android:title="Help"/>
+    <item
+        android:id="@+id/update"
+        android:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="never" android:title="Update">
+    </item>
 
 </menu>

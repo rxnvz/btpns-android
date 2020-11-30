@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp">
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Daftar Nasabah"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/refreshTV"
+            style="@style/floatingButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bt_gradient"
+            android:layout_below="@id/headerText"
+            android:textSize="16sp"
+            android:text="Masukkan Data" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/nbList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="27dp" />
+
+</LinearLayout>
