@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/pinkLavender"
+    android:clickable="true"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+    android:id="@+id/pulsaCV">
+
+        <TextView
+            android:id="@+id/nominalPulsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/solidBlack"
+            android:text="Coba"
+            android:textSize="20dp"
+            android:padding="20dp"/>
+
+</androidx.cardview.widget.CardView>

@@ -45,8 +45,6 @@ public class BeritaAdapter extends RecyclerView.Adapter<BeritaAdapter.BeritaView
         System.out.println("Isi judul di onBindViewHolder: " + newsArr.get(position).getJudul());
         holder.judulTV.setText(newsArr.get(position).getJudul());
         holder.tagTV.setText(newsArr.get(position).getTags());
-//        holder.urlImg.setImageURI(Uri.parse(newsArr.get(position).getPhotoURL()));
-//        Glide.with(holder.urlImg.getContext()).load(newsArr.get(position).getPhotoURL()).into(holder.urlImg);
         Picasso.get().load(newsArr.get(position).getPhotoURL()).into(holder.urlImg);
     }
 

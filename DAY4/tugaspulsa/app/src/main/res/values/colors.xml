@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="solidBlack">#000000</color>
+    <color name="darkGrey">#A9A9A9</color>
+    <color name="crimson">#DC143C</color>
+    <color name="honeyDew">#E0EFDA</color>
+    <color name="pinkLavender">#EFC7E5</color>
+    <color name="midPurple">#D782BA</color>
+    <color name="cottonCandy">#EEB1D5</color>
+    <color name="plumWeb">#E18AD4</color>
+</resources>
