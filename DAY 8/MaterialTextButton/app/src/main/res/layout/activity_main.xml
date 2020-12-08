@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    Text Button-->
+    <Button
+        android:id="@+id/textBtn"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        app:icon="@android:drawable/ic_input_add" />
+
+<!--    Outlined Button-->
+    <Button
+        android:id="@+id/outlineBtn"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outlined Button"
+        android:layout_below="@id/textBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        app:icon="@android:drawable/ic_input_add" />
+
+<!--    Contained Button-->
+    <Button
+        android:id="@+id/containedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textBtn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        app:icon="@android:drawable/ic_input_add"
+        android:text="Contained Button" />
+
+<!--    Toggle Button Text-->
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/outlineBtn">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bintang"
+            style="?attr/materialButtonOutlinedStyle" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Star"
+            style="?attr/materialButtonOutlinedStyle" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estelle"
+            style="?attr/materialButtonOutlinedStyle" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+<!--    Toggle Button Icon-->
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleIconBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/toggleBtn">
+        <Button
+            android:id="@+id/iconBtn1"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@android:drawable/ic_lock_power_off" />
+        <Button
+            android:id="@+id/iconBtn2"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@android:drawable/ic_lock_silent_mode" />
+        <Button
+            android:id="@+id/iconBtn3"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@android:drawable/ic_menu_call" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+</RelativeLayout>

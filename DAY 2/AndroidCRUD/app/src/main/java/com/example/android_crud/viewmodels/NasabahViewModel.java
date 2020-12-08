@@ -43,15 +43,6 @@ public class NasabahViewModel extends ViewModel {
         return mutableNasabahLiveData;
     }
 
-//    public void getNasabah(String id) {
-//        if (mutableNasabahLiveData != null) {
-//            mutableNasabahLiveData = nbsRepo.getSingleNasabah(id);
-//            return;
-//        }
-//        nbsRepo = NasabahRepository.getInstance();
-//        mutableNasabahLiveData = nbsRepo.getSingleNasabah(id);
-//    }
-
     public LiveData<SingleResponse> putNasabahRepo(String id, Nasabah nasabahPayLoad) {
         if (mutableNasabahLiveData == null) {
             nbsRepo = NasabahRepository.getInstance();

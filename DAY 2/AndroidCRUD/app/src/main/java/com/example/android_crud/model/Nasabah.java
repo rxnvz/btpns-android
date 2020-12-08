@@ -3,10 +3,12 @@ package com.example.android_crud.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.security.PublicKey;
+
 public class Nasabah {
     @SerializedName("id")
     @Expose
-    private Integer id;
+    private Long id;
 
     @SerializedName("nama")
     @Expose
@@ -20,11 +22,11 @@ public class Nasabah {
     @Expose
     private String alamat;
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

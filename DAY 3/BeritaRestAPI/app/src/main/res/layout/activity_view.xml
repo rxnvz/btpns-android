@@ -55,6 +55,7 @@
                     android:layout_weight="1"
                     android:layout_marginRight="27dp"
                     android:hint="Judul"
+                    android:inputType="text"
                     android:textSize="16sp" />
             </LinearLayout>
 
@@ -75,6 +76,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:hint="Kategori"
+                    android:inputType="text"
                     android:layout_marginRight="27dp"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -96,6 +98,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginRight="27dp"
                     android:layout_weight="1"
+                    android:inputType="text"
                     android:hint="URL Foto"
                     android:textSize="16sp" />
             </LinearLayout>
